@@ -41,7 +41,7 @@
           "buildSettings": {
             "base": "studio",
             "dir": "dist",
-            "cmd": "npm run build && cp netlify.toml dist"
+            "cmd": "npm run build"
           },
           "requirements": ["build-hook"]
         },
