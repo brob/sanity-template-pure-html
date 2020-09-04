@@ -46,15 +46,15 @@
           "requirements": ["build-hook"]
         },
         {
-          "id": "web",
-          "type": "web",
+          "id": "site",
+          "type": "site",
           "title": "HTML Webpage",
           "requirements": ["build-hook"],
           "description": "Handlebars generated html web page",
-          "dir": "./web",
+          "dir": "./site",
           "buildSettings": {
             "base": "site",
-            "dir": "dist",
+            "dir": "./dist",
             "cmd": "npm run build"
           },
           "previewMedia": {
