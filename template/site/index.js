@@ -54,6 +54,7 @@ function writeFile(destination, html) {
 }
 
 async function main(src, dist) {
+    prepare();
     const data = await getSanityData();
     const html = buildHTML(src, data)
     
