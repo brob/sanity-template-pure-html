@@ -47,7 +47,7 @@
         },
         {
           "id": "site",
-          "type": "site",
+          "type": "web",
           "title": "HTML Webpage",
           "requirements": ["build-hook"],
           "description": "Handlebars generated html web page",
