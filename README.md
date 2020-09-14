@@ -1,0 +1,1 @@
+# Pure HTML SSG with Sanity Studio
